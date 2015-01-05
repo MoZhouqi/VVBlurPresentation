@@ -19,6 +19,7 @@
 		4B1FF8301A5A220D00C798BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B1FF8101A5A207E00C798BD /* LaunchScreen.xib */; };
 		4B1FF8311A5A220D00C798BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1FF8121A5A207E00C798BD /* Main.storyboard */; };
 		4B1FF8341A5A23F800C798BD /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1FF8331A5A23F800C798BD /* PresentedViewController.m */; };
+		CDB5D32A1A5A717D0089FCF0 /* KMBlurPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB5D3291A5A717D0089FCF0 /* KMBlurPresentationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		4B1FF8291A5A20C800C798BD /* VVBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVBlurViewController.m; sourceTree = "<group>"; };
 		4B1FF8321A5A23F800C798BD /* PresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentedViewController.h; sourceTree = "<group>"; };
 		4B1FF8331A5A23F800C798BD /* PresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentedViewController.m; sourceTree = "<group>"; };
+		CDB5D3281A5A717D0089FCF0 /* KMBlurPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBlurPresentationViewController.h; sourceTree = "<group>"; };
+		CDB5D3291A5A717D0089FCF0 /* KMBlurPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMBlurPresentationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				4B1FF8271A5A20C800C798BD /* VVBlurTransitioning.m */,
 				4B1FF8281A5A20C800C798BD /* VVBlurViewController.h */,
 				4B1FF8291A5A20C800C798BD /* VVBlurViewController.m */,
+				CDB5D3281A5A717D0089FCF0 /* KMBlurPresentationViewController.h */,
+				CDB5D3291A5A717D0089FCF0 /* KMBlurPresentationViewController.m */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -244,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB5D32A1A5A717D0089FCF0 /* KMBlurPresentationViewController.m in Sources */,
 				4B1FF82C1A5A20C800C798BD /* VVBlurTransitioning.m in Sources */,
 				4B1FF82B1A5A20C800C798BD /* VVBlurPresenter.m in Sources */,
 				4B1FF8201A5A207E00C798BD /* ViewController.m in Sources */,
@@ -444,6 +450,7 @@
 				4B1FF8091A5A204500C798BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B1FF80A1A5A204500C798BD /* Build configuration list for PBXNativeTarget "VVBlurPresentationTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +459,7 @@
 				4B1FF80C1A5A204500C798BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

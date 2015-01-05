@@ -37,7 +37,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="7FZ-JK-TEm" kind="presentation" identifier="showDark" id="4BW-Fb-jFx"/>
+                                            <segue destination="7FZ-JK-TEm" kind="presentation" identifier="showDark" id="u8O-Dn-hnb"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxg-nR-J1L">
@@ -51,7 +51,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="7FZ-JK-TEm" kind="presentation" identifier="showLight" id="1C1-IB-HWe"/>
+                                            <segue destination="7FZ-JK-TEm" kind="presentation" identifier="showLight" id="nOn-5H-hQ6"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -123,6 +123,6 @@
         <image name="onevcat" width="384" height="383"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4BW-Fb-jFx"/>
+        <segue reference="u8O-Dn-hnb"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -22,8 +22,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import "VVBlurViewController.h"
+#import "KMBlurPresentationViewController.h"
 
-@interface PresentedViewController : VVBlurViewController
+@interface PresentedViewController : KMBlurPresentationViewController
 
 @end
