@@ -1,5 +1,7 @@
 # VVBlurPresentation
 
+***Another way to achieve the similar effect with less code. See `KMBlurPresentationViewController`***
+
 A simple way to present a view controller with keeping the blurred previous one.
 
 It uses `UIBlurEffectStyle` in iOS 8 SDK, so it is only compatibility with iOS 8 and later.
